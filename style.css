@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+@font-face {
+    font-family: nexa;
+    src: url(NexaBold.otf);
+}
+
+@font-face {
+    font-family: nexa_light;
+    src: url(NexaLight.otf);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: nexa;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Custom ScrollBar------------------------- */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FE8C45;
+}
+::-webkit-scrollbar-track {
+    background-color: #d4e2fd;
+}
+
+
+
+/* Global Class */
+button {
+    background-color: #FE8C45;
+    border-radius: 90px;
+    font-size: 16px;
+    border: none;
+    overflow: none;
+    padding: 12px 22px;
+    color: #fff;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .7;
+}
+
+.active {
+    color: #FE8C45;
+}
+
+.hide {
+    display: none;
+}
+
+
+/* Navbar Start */
+nav {
+    z-index: 9999;
+}
+ul li:hover {
+    color: #FE8C45;
+}
+
+.card_btn {
+    text-decoration: none;
+    background-color: #FE8C45;
+    border-radius: 90px;
+    font-size: 16px;
+    border: none;
+    overflow: none;
+    padding: 12px 22px;
+    color: #fff;
+
+}
+
+.price_section {
+    width: 100%;
+    background: url(image/Ellipse\ 9.png) no-repeat;
+    background-position: right bottom;
+}
+
+.pseudo_element {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.pseudo_element::before {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: #a845fe;
+    display: block;
+}
+
+.amabe {
+    width: 272px;
+    height: 55px;
+    background-color: #E4D4FD;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.carousel_btn:active {
+    background-color: #a845fe !important;
+}
+
+.about_text {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.about_text::before {
+    content: '';
+    width: 20px;
+    height: 1px;
+    display: block;
+    background-color: #a845fe;
+}
+
